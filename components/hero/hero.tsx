@@ -23,7 +23,6 @@ const poweredBy = [
 export default function Hero() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-400 via-sky-200 to-white flex items-center justify-center px-6 py-16 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-30 bg-[url('/science-ai-bg.svg')] bg-cover bg-center"></div>
       <div className="max-w-6xl w-full text-center space-y-12 relative z-10">
         
         <motion.h1
